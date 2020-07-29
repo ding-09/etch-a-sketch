@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    position: absolute; 
+    margin: auto;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid lightgray;
+    width: 80vh;
+    height: 80vh;
+}
+
+.grid-square-style {
+    border: 1px solid lightgray;
+}
+
+.random-color {
+    background-color: blue;
+}
